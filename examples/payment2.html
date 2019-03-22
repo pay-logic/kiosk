@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=1024, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/common.css">
+  <script src="js/lib/jquery-3.3.1.min.js"></script>
+  <script src="data/cart2.js"></script>
+</head>
+<body class="body">
+<div class="body__wrapper">
+  <div class="body__content">
+    <div js-payment class="payment block">
+      <div class="payment__wrapper block-wrapper">
+        <div class="payment__side">
+          <div class="payment__header">
+            <div class="payment__header-wrapper">
+              <div class="payment__header-main">
+                <div class="payment__title">
+                  Оплата сотовой связи
+                </div>
+              </div>
+              <div class="payment__header-side">
+                <a href="index.html" class="button button_small router-link-active">
+                  <span class="button__content">
+                    <span class="button__title">Назад</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment__main">
+          <div class="payment__info">
+            <div class="payment__info-main">
+              <div class="payment-cart">
+                <div class="payment-cart__side">
+                  <div class="payment-cart__desc">
+                    Объект корзины
+                  </div>
+                </div>
+                <div class="payment-object__main">
+                  <div js-payment-object class="payment-cart__context"></div>
+                </div>
+              </div>
+              <div class="payment-card">
+                <div class="payment-card__side">
+                  <div class="payment-card__attributes">
+                    <div class="payment-card__attributes-item">
+                      <div class="payment-card__attributes-wrapper">
+                        <div class="payment-card__attributes-key">
+                          phone
+                        </div>
+                        <div class="payment-card__attributes-value">
+                          9123545566
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="payment-card__section">
+                    <div class="payment-card__section-wrapper">
+                      <div class="payment-card__section-main">
+                        Оплата МТС
+                      </div>
+                      <div class="payment-card__section-side">
+                        200 Руб.
+                      </div>
+                    </div>
+                    <div class="payment-card__section-wrapper payment-card__section-wrapper_small">
+                      <div class="payment-card__section-main">
+                        НДС: 20 %
+                      </div>
+                      <div class="payment-card__section-side">
+                        40 Руб.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="payment-card__main">
+                  <div class="payment-card__total">
+                    Итого: 200
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="payment__info-side">
+              <div class="payment__action">
+                <button js-payment-button type="button" class="button button_full">
+                <span class="button__content">
+                  <span class="button__title">Оплатить</span>
+                </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/payment.js"></script>
+</body>
+</html>
