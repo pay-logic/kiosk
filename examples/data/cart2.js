@@ -11,6 +11,7 @@ const CART = {
       name: 'Оплата МТС',
       price: 20000,
       count: 1000,
+      paymentMethod: 2,
       subjectType: 4,
       taxId: 1
     }
