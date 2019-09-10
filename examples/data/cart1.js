@@ -6,6 +6,7 @@ const CART = {
       name: 'Чисбургер средний',
       price: 10000,
       count: 1000,
+      paymentMethod: 3,
       subjectType: 1,
       taxId: 1
     },
@@ -14,6 +15,7 @@ const CART = {
       name: 'Кола большая',
       price: 5000,
       count: 1000,
+      paymentMethod: 3,
       subjectType: 1,
       taxId: 1
     }
